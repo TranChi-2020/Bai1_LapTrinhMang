@@ -35,6 +35,7 @@ public class Main {
 
     // Menu
     static void showMenu() {
+        System.out.println();
         System.out.println("******************************Menu******************************");
         System.out.println("1. Thuc hien in cac so le nho hon so nguyen n");
         System.out.println("2. Thuc hien in cac so chan nho hon so nguyen n");
@@ -42,6 +43,7 @@ public class Main {
         System.out.println("4. Thuc hien in cac ki tu hoa trong bang ma ASCII");
         System.out.println("5. Thoat");
         System.out.println("****************************************************************");
+        System.out.println();
     }
 
     // Ham nhap
@@ -67,8 +69,9 @@ public class Main {
         int n = Input();
         System.out.println("Cac so le nho hon so nguyen n : ");
         for (int i = 1; i < n; i += 2) {
-            System.out.println(i);
+            System.out.print("\t" + i);
         }
+        System.out.println();
     }
 
     // câu 2
@@ -77,8 +80,9 @@ public class Main {
         int n = Input();
         System.out.println("Cac so chan nho hon so nguyen n : ");
         for (int i = 0; i < n; i += 2) {
-            System.out.println(i);
+            System.out.print("\t" + i);
         }
+        System.out.println();
     }
 
     // câu 3
@@ -87,8 +91,9 @@ public class Main {
         int n = Input();
         System.out.println("Cac so tu 1 -> n la : ");
         for (int i = 0; i <= n; i++) {
-            System.out.println(i);
+            System.out.print("\t" + i);
         }
+        System.out.println();
     }
 
     // câu 4
